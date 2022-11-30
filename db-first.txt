@@ -1,0 +1,19 @@
+USED CARS
+
+id - INT - PRIMARY KEY ( NOTNULL , UNIQUE) - AUTO_INCREMENT
+license plate - VARCHAR(20)  NOTNULL UNIQUE 
+brand - VARCHAR (30) NOTNULL
+model - VARCHAR (30) NOTNULL
+description - TEXT - NULL
+release date - DATETIME - NOT NULL
+km travelled - DOUBLE (6,4) - NOT NULL
+motor - VARCHAR (20) - NOTNULL
+exchange - VARCHAR (20) NOTNULL
+owners - VARCHAR (10) NOTNULL
+car door - SMALLINT - NOTNULL
+crashed car - TINYINT - NOTNULL
+country of origin VARCHAR(30) NULL
+number of seats - SMALLINT - NOTNULL
+revision  VARCHAR (20) -NULL
+price DECIMAL (7,2) - NOTNULL
+size - VARCHAR(100) - NULL
